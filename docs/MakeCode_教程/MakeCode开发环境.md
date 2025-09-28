@@ -24,15 +24,15 @@ MakeCode 编译器如下:
 
 第一步：点击右上角的设置按钮。
 
-![Img](./media/img-20250903170641.png)
+![Img](./media/A301.png)
 
 第二步：在下拉菜单中选择“Language”。
 
-![Img](./media/img-20250903170732.png)
+![Img](./media/A302.png)
 
 第三步：在弹出的对话框中，选择你需要的界面语言。
 
-![Img](./media/img-20250903170831.png)
+![Img](./media/A303.png)
 
 ## 3.2.2 MakeCode扩展库
 
