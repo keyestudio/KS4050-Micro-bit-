@@ -89,37 +89,39 @@ MU的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/dow
 
 MU的安装说明链接：[https://codewith.mu/en/howto/1.2/install_linux](https://codewith.mu/en/howto/1.2/install_linux) 
 
-## 4.3 MU软件设置以及工具栏介绍
+## 4.3 MU编辑器设置以及工具栏介绍
 
 ⚠️ **特别提醒：** 这里以Windows系统为例（MacOSX和Linux系统类似，可以参考）.
 
 第一次使用时需要设置 “**Mode**” 为BBC micro:bit .
 
-打开Mu软件，点击菜单栏中的 “**Mode**” 按钮，并在弹出对话框中选择 “**BBC micro：bit**”，之后单击 “**OK**” 。
+打开Mu编辑器，点击菜单栏中的 “**Mode**” 按钮，并在弹出对话框中选择 “**BBC micro：bit**”，之后单击 “**OK**” 。
 
 ![Img](./media/A022.png)
 
-Mu的操作页面请参考官方的介绍：[https://codewith.mu/en/tutorials/1.1/start](https://codewith.mu/en/tutorials/1.1/start)
+Mu编辑器的操作页面请参考官方的介绍：[https://codewith.mu/en/tutorials/1.1/start](https://codewith.mu/en/tutorials/1.1/start)
 
-更多有关使用Mu的教程，请参阅：[https://codewith.mu/en/tutorials/](https://codewith.mu/en/tutorials/)
+更多有关使用Mu编辑器的教程，请参阅：[https://codewith.mu/en/tutorials/](https://codewith.mu/en/tutorials/)
 
-## 4.4 Mu软件如何给micro:bit安装库文件(重要)
+## 4.4 Mu编辑器如何给micro:bit主板导入库文件(重要)
 
-⚠️ **特别提醒：** 导入库文件前需要给Micro:bit主板上传一个.py代码（空代码也是可以的），这里我们是以一个空代码为例。
+⚠️ **特别提醒：** 导入库文件前需要给Micro:bit主板上传一个.py代码（空代码也是可以的），这里我们是以导入一个空代码为例。
 
-通过micro USB线连接micro：bit主板和电脑，打开Mu软件，点击 “**Flash**” 按钮，即可成功将 .py代码（空代码）上传至Micro:bit主板。
+通过micro USB线连接micro：bit主板和电脑，打开Mu编辑器，点击 “**New**” 按钮，新建 .py代码（空代码），然后点击 “**Flash**” 按钮，即可成功将 .py代码（空代码）上传至Micro:bit主板。
 
 ![Img](./media/A252.png)
 
+![Img](./media/A4314.png)
+
 ![Img](./media/A4315.png)
 
-在本教程的代码中，使用了OLED模块和DHT11模块，因此需要导入 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 库文件到micro：bit主板。
+在本教程的代码中，使用了OLED显示屏和XHT11温湿度传感器，因此需要导入 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 库文件到micro：bit主板。
 
-Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的根目录中。参考文献链接：[https://codewith.mu/en/tutorials/1.0/files](https://codewith.mu/en/tutorials/1.0/files)。
+Mu编辑器保存文件的默认目录是 “**mu_code**” ，它位于用户目录的根目录中。参考文献链接：[https://codewith.mu/en/tutorials/1.0/files](https://codewith.mu/en/tutorials/1.0/files)。
 
-**库文件的导入方法如下：**
+**库文件的导入步骤如下：**
 
-1\. 在计算机的C盘上搜索，找到 “**mu_code**” 文件夹。
+1\. 在计算机的C盘上搜索 “**mu_code**”，找到 “**mu_code**” 文件夹。
 
 ![Img](./media/A543.png)
 
@@ -129,11 +131,11 @@ Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的�
 
 ![Img](./media/A628.png)
 
-3\. 将 “**Libraries**” 文件夹中的库文件 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 从以下路径拷贝到“mu_code”目录下。
+3\. 将 “**Libraries**” 文件夹中的库文件 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 从以下路径拷贝到 “**mu_code**” 目录下。
 
 ![Img](./media/A4716.png)
 
-4\. 粘贴成功后，如下图所示：
+4\. 复制粘贴成功后，在 “**mu_code**” 目录下，可以看到库文件 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 。如下图所示：
 
 ![Img](./media/A735.png)
 
@@ -153,17 +155,17 @@ Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的�
 
 ![Img](./media/A4920.png)
 
-⚠️ **特别注意:** 上传其他文件到micro:bit后，将覆盖原有内容，下次使用它时需要重新导入它。
+⚠️ **<span style="color: rgb(255, 76, 65);">特别提醒:</span> 将库文件成功导入到Micro:bit主板之后，然后点击 “**Flash**” 按钮将.py代码文件下载到Micro:bit主板。如果Micro:bit主板上的5*5LED点阵提示一些错误信息和错误的行号，那么需要参照上面的方法将库文件重新导入到Micro:bit主板。**
 
 ## 4.5 如何添加代码到Mu编辑器
 
-这里我们以 “**heartbeat\.py**” 文件为例，教程附带的资源文件夹中，在文件夹 “**Heart beat**” 文件夹找到 “**heartbeat\.py**” 文件。
+这里我们以 “**heartbeat\.py**” 文件为例，教程附带的资源文件夹中，在 “**Heart beat**” 文件夹找到 “**heartbeat\.py**” 文件。
 
 ![Img](./media/A200.png)
 
 **方法一：**
 
-打开Mu软件，点击 “**Load**” 按钮，导航到你下载的示例代码所保存的位置。
+打开Mu编辑器，点击 “**Load**” 按钮，导航到你下载的示例代码所保存的位置。
 
 ![Img](./media/A341.png)
 
@@ -175,7 +177,7 @@ Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的�
 
 方法二：
 
-除了上述Mu软件加载（导入）示例代码方法之外，还有一种更简单的加载代码方法：
+除了上述Mu编辑器加载（导入）示例代码方法之外，还有一种更简单的加载代码方法：
 
 先打开Mu软件，点击![Img](./media/A503.png)，然后选中 “**heartbeat\.py**” 文件，并继续按下鼠标左键，将选中的文件拖动到Mu软件中。如下图所示：
 
@@ -183,11 +185,13 @@ Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的�
 
 成功加载如下所示：
 
-![Img](./media/A533.png)
+![Img](./media/A354.png)
 
 **添加其他的代码到Mu软件中的方法是一样的。**
 
 ## 4.6 如何下载代码到mciro:bit主板
+
+⚠️ **特别注意:** 上传其他代码文件到micro:bit主板后，将覆盖原有内容，下次使用它时需要重新导入它。
 
 通过micro USB线连接micro：bit主板和电脑。
 
@@ -201,25 +205,25 @@ Mu保存文件的默认目录是 “**mu_code**” ，它位于用户目录的�
 
 ![Img](./media/A22.png)
 
-⚠️ **特别提醒：** 如果您的代码中有错误，您也可能能够成功地将其代码下载到micro:bit主板，但它将无法正常工作。具体降解如下：
+⚠️ **特别提醒：** 如果您的代码中有错误，您也可能能够成功地将其代码下载到micro:bit主板，但它将无法正常工作。具体详解如下：
 
 例如，函数sleep()在代码中被写成sleeps()。点击 “**Flash**” 按钮，即可成功上传代码至Micro:bit主板。但是，下载完成后，micro:bit主板上的5×5 LED点阵提示一些错误信息和错误的行号。
 
 ![Img](./media/A4003.png)
 
-点击 “**REPL**” 按钮，再按一下micro：bit的重置按钮（**背面的复位按钮，不是A、B按键**），错误信息将显示在REPL框中，如下图所示：
+点击 “**REPL**” 按钮，再按一下micro：bit主板的重置按钮（**micro：bit主板背面的复位按钮，不是A、B按键**），错误信息将显示在REPL框中，如下图所示：
 
 ![Img](./media/A029.png)
 
 ![Img](./media/A033.png)
 
-再次单击 “**REPL**” 按钮，您将关闭REPL模式。然后你可以单击 “**Flash**” 按钮下载代码。
+再次单击 “**REPL**” 按钮，您将关闭REPL模式。修改错误之后，然后你可以单击 “**Flash**” 按钮下载代码至micro：bit主板。
 
-为确保代码正确，完成编写代码之后，点击 “**Check**” 按钮检查代码是否有错误。如下图所示，点击 “**Check**” 按钮，然后Mu会指出代码的错误。
+为确保代码正确，完成编写代码之后，点击 “**Check**” 按钮检查代码是否有错误。如下图所示，点击 “**Check**” 按钮，然后Mu编辑器会指出代码的错误。
 
 ![Img](./media/A119.png)
 
-根据错误提示修改代码，然后再次点击 “**Check**” 按钮，Mu在下面的栏中没有显示错误。
+根据错误提示修改代码，然后再次点击 “**Check**” 按钮，Mu编辑器在下面的栏中没有显示错误。
 
 ![Img](./media/A134.png)
 
