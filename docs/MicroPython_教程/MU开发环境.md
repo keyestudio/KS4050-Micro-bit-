@@ -9,11 +9,11 @@
 
 ![Img](./media/A253.png)
 
-⚠️ **特别提醒：** Mu不再支持32位Windows。目前推荐的版本是Mu 1.2.0，建议你们通过每个支持的操作系统的链接更新到这个版本.
+⚠️ **特别提醒：** Mu编辑器不再支持32位Windows。目前推荐的版本是Mu 1.2.0，建议你们通过每个支持的操作系统的链接更新到这个版本.
 
 ### 4.2.1.1 MU编辑器下载
 
-MU的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
+MU编辑器的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
 
 ![Img](./media/A422.png)
 
@@ -43,7 +43,7 @@ Windows Defender将弹出一条警告消息，你应该点击 “**More info**�
 
 **步骤3-安装：**
 
-当Mu在你的电脑上安装时，需要几秒钟。
+当Mu编辑器在你的电脑上安装时，需要几秒钟。
 
 ![Img](./media/A1740.png)
 
@@ -53,17 +53,17 @@ Windows Defender将弹出一条警告消息，你应该点击 “**More info**�
 
 ![Img](./media/A817.png)
 
-**步骤5-启动MU：**
+**步骤5-启动MU编辑器：**
 
-你可以点击开始菜单中的图标启动Mu，也可以在搜索框中输入Mu (下面两种方法都有显示)。在第一次启动MU时，这可能需要一些时间。
+你可以点击开始菜单中的图标启动Mu编辑器，也可以在搜索框中输入Mu (下面两种方法都有显示)。在第一次启动MU编辑器时，这可能需要一些时间。
 
 ![Img](./media/A852.png)
 
-Mu的主界面如下图所示：
+Mu编辑器的主界面如下图所示：
 
 ![Img](./media/A909.png)
 
-你也可以参照MU的安装说明链接：[https://codewith.mu/en/howto/1.2/install_windows](https://codewith.mu/en/howto/1.2/install_windows)  。
+你也可以参照MU编辑器的安装说明链接：[https://codewith.mu/en/howto/1.2/install_windows](https://codewith.mu/en/howto/1.2/install_windows)  。
 
 ## 4.2.2 MacOSX系统
 
@@ -75,19 +75,19 @@ MU的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/dow
 
 ### 4.2.2.2 MU编辑器安装
 
-MU的安装说明链接：[https://codewith.mu/en/howto/1.2/install_macos](https://codewith.mu/en/howto/1.2/install_macos) 
+MU编辑器的安装说明链接：[https://codewith.mu/en/howto/1.2/install_macos](https://codewith.mu/en/howto/1.2/install_macos) 
 
 ## 4.2.3 Linux系统
 
 ### 4.2.3.1 MU编辑器下载
 
-MU的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
+MU编辑器的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
 
 ![Img](./media/A78.png)
 
 ### 4.2.3.2 MU编辑器安装
 
-MU的安装说明链接：[https://codewith.mu/en/howto/1.2/install_linux](https://codewith.mu/en/howto/1.2/install_linux) 
+MU编辑器的安装说明链接：[https://codewith.mu/en/howto/1.2/install_linux](https://codewith.mu/en/howto/1.2/install_linux) 
 
 ## 4.3 MU编辑器设置以及工具栏介绍
 
@@ -139,7 +139,7 @@ Mu编辑器保存文件的默认目录是 “**mu_code**” ，它位于用户�
 
 ![Img](./media/A735.png)
 
-5\. 打开Mu软件，点击 “**Files**” 按钮。这里我们以 “**DHT11\.py**” 库文件为例，拖动 “**DHT11\.py**” 库文件到micro:bit中。
+5\. 打开Mu编辑器，点击 “**Files**” 按钮。这里我们以 “**DHT11\.py**” 库文件为例，拖动 “**DHT11\.py**” 库文件到micro:bit中。
 
 ![Img](./media/A816.png)
 
@@ -179,7 +179,7 @@ Mu编辑器保存文件的默认目录是 “**mu_code**” ，它位于用户�
 
 除了上述Mu编辑器加载（导入）示例代码方法之外，还有一种更简单的加载代码方法：
 
-先打开Mu软件，点击![Img](./media/A503.png)，然后选中 “**heartbeat\.py**” 文件，并继续按下鼠标左键，将选中的文件拖动到Mu软件中。如下图所示：
+先打开Mu编辑器，点击![Img](./media/A503.png)，然后选中 “**heartbeat\.py**” 文件，并继续按下鼠标左键，将选中的文件拖动到Mu编辑器中。如下图所示：
 
 ![Img](./media/A521.png)
 
@@ -187,7 +187,7 @@ Mu编辑器保存文件的默认目录是 “**mu_code**” ，它位于用户�
 
 ![Img](./media/A354.png)
 
-**添加其他的代码到Mu软件中的方法是一样的。**
+**添加其他的代码到Mu编辑器中的方法是一样的。**
 
 ## 4.6 如何下载代码到mciro:bit主板
 

@@ -26,7 +26,7 @@ MakeCode 编译器如下:
 
 ![Img](./media/A301.png)
 
-第二步：在下拉菜单中选择“Language”。
+第二步：在下拉菜单中选择 “Language”。
 
 ![Img](./media/A302.png)
 
@@ -192,7 +192,7 @@ MakeCode 编译器如下:
 
 ![Img](./media/Animations-1.gif)
 
-除了参照上面的动图演示，也可以参照下面的说明来下载代码至micro:bit 主板。
+除了参照上面的动图演示，也可以参照下面的说明来下载代码至micro:bit主板。
  
 ① 单击编辑器中的 “**Download**” 按钮。 这将下载一个 “**.hex**” (十六进制)文件，该文件是micro:bit主板可以读取的格式文件。十六进制文件下载后，将其复制到你的micro:bit 主板，就像将文件复制到USB驱动器一样。 在Windows上，你还可以右键单击并选择 “**发送到→MICROBIT**” 将 “**.hex**” 文件拷贝到micro:bit主板。“**.hex**” 文件拷贝到micro:bit 主板过程中，micro:bit主板背面的黄色信号灯会闪烁，当拷贝完成后黄色信号灯停止闪烁，保持长亮。
 
@@ -206,12 +206,11 @@ MakeCode 编译器如下:
 
 ![Img](./media/A345.png)
 
-② 将示例代码程序上传micro: bit主板后，通过micro USB线连接到电脑上给micro: bit主板供电，可以看到micro: bit主板上的 5 x 5 LED点阵先显示![Img](./media/A903.png)图案，再显示![Img](./media/A910.png)图案。循环进行！
+② 将示例代码程序上传micro: bit主板后，通过micro USB线连接到电脑上给micro: bit主板供电，可以看到micro: bit主板上的 5 x 5 LED点阵屏先显示![Img](./media/A903.png)图案，再显示![Img](./media/A910.png)图案。循环进行！
 
 ![Img](./media/A22.png)
 
-⚠️ **特别提醒：** 如果使用 Windows 10 App [Get Windows 10 App](https://apps.microsoft.com/detail/9pjc7sv48lcx?hl=zh-CN&gl=CN#activetab=pivot:overviewtabdocx)（单击）编写程序，则只需单击 “**Download**” 按钮，该示例代码将直接下载到micro:bit主板，而无需任何其他操作。
-
+⚠️ **特别提醒：** 如果你的电脑是Windows 10操作系统，你也可以使用Windows 10 APP编程，这与在浏览器上编程完全相同。使用 Windows 10 App [Get Windows 10 App](https://apps.microsoft.com/detail/9nmqdq2xzkwk?hl=en-gb&gl=CN)(Click)编程，则只需单击 “**Download**” 按钮，该示例代码将直接下载到micro:bit主板，而无需任何其它操作。
 
 ⚠️ **特别提醒：** 每次编程时，MICROBIT磁盘都会自动弹出并返回，但是你已经拷贝到MICROBIT磁盘的十六进制（**.hex**）文件将不会被显示。 micro:bit主板只能接收并运行最新上传的十六进制（**.hex**）文件，不会存储任何其他文件！
 

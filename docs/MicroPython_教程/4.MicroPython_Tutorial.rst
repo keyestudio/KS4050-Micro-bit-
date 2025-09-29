@@ -12,7 +12,7 @@
     Resource_Download 
      
 
-4.2 MU开发环境配置
+4.2 MU编辑器开发环境配置
 =========
 
 .. toctree::

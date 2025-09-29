@@ -1,6 +1,6 @@
 '''
 Theme: Rainwater monitoring
-Function: OLED displays the amount of rainwater and the staem sensor controls the fan and atomization module
+Function: OLED displays the amount of rainwater and the steam sensor controls the fan and atomization module
 Compiling IDE: MU 1.2.0
 Author: https://docs.keyestudio.com
 '''

@@ -18,7 +18,7 @@ clear_oled()  # clear oled
 uv_sensor = pin1
 
 def read_uv_index():
-    # Read the analog value (0-1023 corresponds to 0-5.0V)
+    # Read the analog value (0-1023 corresponds to 0-3.3V)
     raw_value = uv_sensor.read_analog()
     # Make sure the value is within the valid range
     if raw_value > 1023:
