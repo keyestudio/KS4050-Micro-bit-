@@ -4,7 +4,7 @@
 
 **MakeCode编程环境：**
 
-打开MakeCode在线版本: [https://makecode.microbit.org/](https://makecode.microbit.org/)
+打开MakeCode在线网页版本: [https://makecode.microbit.org/](https://makecode.microbit.org/)
 
 MakeCode 编译器如下:
 
@@ -22,6 +22,10 @@ MakeCode 编译器如下:
 
 **界面语言的切换：**
 
+![Img](./media/Animation-3.gif)
+
+除了参照上面的动图演示，也可以参照下面的步骤说明来进行语言设置。
+
 第一步：点击右上角的设置按钮。
 
 ![Img](./media/A301.png)
@@ -30,7 +34,7 @@ MakeCode 编译器如下:
 
 ![Img](./media/A302.png)
 
-第三步：在弹出的对话框中，选择你需要的界面语言。
+第三步：在弹出的对话框中，选择你需要的界面语言。这里是以 “English” 语言为例。
 
 ![Img](./media/A303.png)
 
@@ -40,11 +44,17 @@ MakeCode 编译器如下:
 
 ⚠️ **特别提醒：我们为每个项目实验提供十六进制代码文件（**.hex**）。十六进制代码文件包含运行项目所需的所有内容，你可以直接将其导入MakeCode编辑器中使用，也可以手动拖动代码块来创建每个项目实验的代码。如果选择通过手动拖动代码块来创建项目代码，则需要添加库文件。**
 
-1\. 打开MakeCode，先单击右上角的![Img](./media/A806.png)图标（设置），再点击 “**Extensions**”。
+⚠️ **<span style="color: rgb(255, 76, 65);">特别提醒:</span>** 在页面的搜索框输入链接：`https://github.com/keyestudio/pxt-environment-kit-master`
+
+![Img](./media/Animation-4.gif)
+
+除了参照上面的动图演示，也可以参照下面的步骤说明来添加MakeCode扩展库。
+
+1\. 打开MakeCode编辑器，先单击右上角的![Img](./media/A806.png)图标（设置），再点击 “**Extensions**”。
 
 ![Img](./media/A842.png)
 
-或者单击 Advanced 上面的 “**Extensions**”。
+或者单击 **Advanced** 上面的 “**Extensions**”。
 
 ![Img](./media/A900.png)
 
@@ -60,13 +70,17 @@ MakeCode 编译器如下:
 
 ![Img](./media/A3316.png)
 
-5\. 添加成功：
+5\. 添加成功。
 
 ![Img](./media/A335.png)
 
 ### 3.2.2.2 更新或删除扩展库
 
-⚠️ **特别提醒：一般情况下，添加好库文件是不需要再删除它们的，除非是再不需要它们。这部分内容仅供学习怎样来删除不需要的库文件。**
+⚠️ **特别提醒：一般情况下，添加好库文件是不需要再删除它们的，除非是不需要它们。这部分内容仅供学习怎样来删除不需要的库文件。**
+
+![Img](./media/Animation-4.png)
+
+除了参照上面的动图演示，也可以参照下面的步骤说明来进行更新或删除扩展库。
 
 1\. 单击 “**JavaScript**” 按钮切换到文本代码。
 
@@ -88,27 +102,31 @@ MakeCode 编译器如下:
 
 ## 3.2.3 MakeCode示例代码下载
 
-### 3.2.3.1 在MakeCode中导入代码
+### 3.2.3.1 在MakeCode中导入示例代码
 
 接下来，我们以 “**heatbeat**” 项目为例，介绍如何在MakeCode编辑器中导入示例代码。
+
+![Img](./media/Animation-2.gif)
+
+除了参照上面的动图演示，也可以参照下面的步骤说明在MakeCode编辑器中导入示例代码。
 
 1\. 通过micro USB线将 micro:bit 主板连接到电脑上。
 
 ![Img](./media/A800.png)
 
-不管是使用外接电源还是连接到电脑上的micro USB数据线供电，micro:bit主板背后的红色LED指示灯亮起来，说明显示micro:bit 主板有电了。在micro:bit主板上，当你的电脑通过micro USB与micro:bit主板通信时，黄色LED指示灯会闪烁。同时，micro:bit主板连接到电脑时，你的电脑上将显示为一个名为 ' MICROBIT ' 的驱动器。但请注意，它不是普通的USB磁盘！
+不管是使用外接电源还是连接到电脑上的micro USB数据线供电，micro:bit主板背后的红色LED指示灯亮起来，说明micro:bit主板有电了。在micro:bit主板上，当你的电脑通过micro USB与micro:bit主板通信时，黄色LED指示灯会闪烁。同时，micro:bit主板连接到电脑时，你的电脑上将显示一个名为 ' MICROBIT ' 驱动器。但请注意，它不是普通的USB磁盘！
 
 ![Img](./media/A849.png)
 
-2\. 打开Web版本的MakeCode编辑器或Windows10 APP版本的MakeCode编辑器，单击 “**Import**” 。
+2\. 打开在线Web版本的MakeCode编辑器或Windows10 APP版本的MakeCode编辑器，单击 “**Import**” 按钮。
 
 ![Img](./media/A956.png)
 
-3\. 在弹出的对话框中，单击 “**Import File...**”。
+3\. 在弹出的对话框中，单击 “**Import File...**” 按钮。
 
 ![Img](./media/A042.png)
 
-4\. 单击 “**Choose File**” ，导航到你下载的示例代码所保存的位置。
+4\. 单击 “**Choose File**” 按钮，导航到你下载的示例代码所保存的位置。
 
 ![Img](./media/A06.png)
 
@@ -116,11 +134,11 @@ MakeCode 编译器如下:
 
 ![Img](./media/A28.png)
 
-6\. 单击 “**Go ahead √**” 进入 MakeCode 编译器。
+6\. 单击 “**Go ahead √**” 按钮进入 MakeCode 编译器。
 
 ![Img](./media/A149.png)
 
-除了上述将提供的示例代码文件直接导入到Makecode编译器中的方法之外，也可以将我们提供的示例代码文件直接拖入到Makecode编译器中的代码编辑区，如下图所示：
+除了上述将提供的示例代码文件直接导入到MakeCode编译器中的方法之外，也可以将我们提供的示例代码文件直接拖入到MakeCode编译器中的代码编辑区，如下图所示：
 
 ![Img](./media/A202.png)
 
@@ -130,11 +148,11 @@ MakeCode 编译器如下:
 
 ### 3.2.3.2 下载示例代码(WebUSB功能)
 
-如果使用 **Google Chrome**  或  **Microsoft Edge** 的WebUSB功能，该功能允许你直接通过网页访问你的micro USB硬件设备。可以通过单击 “**Download**” 按钮将示例代码快速下载到micro:bit主板。
+如果使用 **Google Chrome**  或  **Microsoft Edge** 的WebUSB功能，该功能允许你直接通过在线网页访问你的micro USB硬件设备。可以通过单击 “**Download**” 按钮将示例代码快速下载到micro:bit主板。
 
 ![Img](./media/Animation.gif)
 
-除了参照上面的动图演示，也可以参照下面的说明来进行配对装置，下载代码至micro:bit主板。
+除了参照上面的动图演示，也可以参照下面的步骤说明来进行配对装置，将示例代码下载至micro:bit主板。
 
 #### 3.2.3.2.1 配对装置
 
@@ -188,13 +206,13 @@ MakeCode 编译器如下:
 
 ![Img](./media/A849.png)
 
-2\. 如果是使用其他浏览器编写程序或导入示例代码，请按照以下步骤将代码上传到micro:bit主板上：
+2\. 如果是使用其他浏览器导入示例代码，请按照以下步骤将示例代码上传到micro:bit主板上：
 
 ![Img](./media/Animations-1.gif)
 
-除了参照上面的动图演示，也可以参照下面的说明来下载代码至micro:bit主板。
+除了参照上面的动图演示，也可以参照下面的步骤说明来下载示例代码至micro:bit主板。
  
-① 单击编辑器中的 “**Download**” 按钮。 这将下载一个 “**.hex**” (十六进制)文件，该文件是micro:bit主板可以读取的格式文件。十六进制文件下载后，将其复制到你的micro:bit 主板，就像将文件复制到USB驱动器一样。 在Windows上，你还可以右键单击并选择 “**发送到→MICROBIT**” 将 “**.hex**” 文件拷贝到micro:bit主板。“**.hex**” 文件拷贝到micro:bit 主板过程中，micro:bit主板背面的黄色信号灯会闪烁，当拷贝完成后黄色信号灯停止闪烁，保持长亮。
+① 单击编辑器中的 “**Download**” 按钮。 这将下载一个 “**.hex**” (十六进制)文件，该文件是micro:bit主板可以读取的格式文件。十六进制文件下载后，将其复制粘贴到你的micro:bit主板，就像将文件复制粘贴到USB驱动器一样。 在Windows系统上，你还可以右键单击并选择 “**发送到→MICROBIT**” 将 “**.hex**” 文件拷贝到micro:bit主板。将“**.hex**” 文件拷贝到micro:bit 主板过程中，micro:bit主板背面的黄色信号灯会闪烁，当拷贝完成后黄色信号灯停止闪烁，保持长亮。
 
 ![Img](./media/A319.png)
 
@@ -210,9 +228,9 @@ MakeCode 编译器如下:
 
 ![Img](./media/A22.png)
 
-⚠️ **特别提醒：** 如果你的电脑是Windows 10操作系统，你也可以使用Windows 10 APP编程，这与在浏览器上编程完全相同。使用 Windows 10 App [Get Windows 10 App](https://apps.microsoft.com/detail/9nmqdq2xzkwk?hl=en-gb&gl=CN)(Click)编程，则只需单击 “**Download**” 按钮，该示例代码将直接下载到micro:bit主板，而无需任何其它操作。
+⚠️ **特别提醒：** 如果你的电脑是Windows 10操作系统，你也可以使用Windows 10 APP编程，这与在在线浏览器上编程完全相同。使用 Windows 10 App [Get Windows 10 App](https://apps.microsoft.com/detail/9nmqdq2xzkwk?hl=en-gb&gl=CN)(Click)编程，则只需单击 “**Download**” 按钮，该示例代码将直接下载到micro:bit主板，而无需任何其它操作。
 
-⚠️ **特别提醒：** 每次编程时，MICROBIT磁盘都会自动弹出并返回，但是你已经拷贝到MICROBIT磁盘的十六进制（**.hex**）文件将不会被显示。 micro:bit主板只能接收并运行最新上传的十六进制（**.hex**）文件，不会存储任何其他文件！
+⚠️ **特别提醒：** 每次编程时，MICROBIT磁盘都会自动弹出并返回，但是你已经拷贝到MICROBIT磁盘的十六进制（**.hex**）文件将不会被显示。micro:bit主板只能接收并运行最新上传的十六进制（**.hex**）文件，不会存储任何其他文件！
 
 
 

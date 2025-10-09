@@ -9,7 +9,7 @@
 
 ![Img](./media/A253.png)
 
-⚠️ **特别提醒：** Mu编辑器不再支持32位Windows。目前推荐的版本是Mu 1.2.0，建议你们通过每个支持的操作系统的链接更新到这个版本.
+⚠️ **特别提醒：** Mu编辑器不再支持32位Windows。目前推荐的版本是Mu 1.2.0，建议你们通过每个支持的操作系统的链接更新到这个版本。
 
 ### 4.2.1.1 MU编辑器下载
 
@@ -25,13 +25,13 @@ MU编辑器的下载链接：[https://codewith.mu/en/download](https://codewith.
 
 ![Img](./media/A440.png)
 
-Windows 10 系统安装时出现警告： 
+Windows 10 系统安装时会出现警告： 
 
 Windows Defender将弹出一条警告消息，你应该点击 “**More info**” 链接。
 
 ![Img](./media/A615.png)
 
-消息将更改，提供有关安装程序的更多信息，并显示 “**Run anyway**” 按钮，单击 “**Run anyway**” 按钮。
+消息将更改，提供有关安装程序的更多信息，并显示 “**Run anyway**” 按钮，请单击 “**Run anyway**” 按钮。
 
 ![Img](./media/A626.png)
 
@@ -69,7 +69,7 @@ Mu编辑器的主界面如下图所示：
 
 ### 4.2.2.1 MU编辑器下载
 
-MU的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
+MU编辑器的下载链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 。
 
 ![Img](./media/A77.png)
 
@@ -93,7 +93,7 @@ MU编辑器的安装说明链接：[https://codewith.mu/en/howto/1.2/install_lin
 
 ⚠️ **特别提醒：** 这里以Windows系统为例（MacOSX和Linux系统类似，可以参考）.
 
-第一次使用时需要设置 “**Mode**” 为BBC micro:bit .
+第一次使用时需要设置 “**Mode**” 为 BBC micro:bit .
 
 打开Mu编辑器，点击菜单栏中的 “**Mode**” 按钮，并在弹出对话框中选择 “**BBC micro：bit**”，之后单击 “**OK**” 。
 
@@ -107,7 +107,7 @@ Mu编辑器的操作页面请参考官方的介绍：[https://codewith.mu/en/tut
 
 ⚠️ **特别提醒：** 导入库文件前需要给Micro:bit主板上传一个.py代码（空代码也是可以的），这里我们是以导入一个空代码为例。
 
-通过micro USB线连接micro：bit主板和电脑，打开Mu编辑器，点击 “**New**” 按钮，新建 .py代码（空代码），然后点击 “**Flash**” 按钮，即可成功将 .py代码（空代码）上传至Micro:bit主板。
+通过micro USB线连接micro:bit主板和电脑，打开Mu编辑器，点击 “**New**” 按钮，新建 .py代码（空代码），然后点击 “**Flash**” 按钮，即可成功将 .py代码（空代码）上传至Micro:bit主板。
 
 ![Img](./media/A252.png)
 
@@ -115,7 +115,7 @@ Mu编辑器的操作页面请参考官方的介绍：[https://codewith.mu/en/tut
 
 ![Img](./media/A4315.png)
 
-在本教程的代码中，使用了OLED显示屏和XHT11温湿度传感器，因此需要导入 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 库文件到micro：bit主板。
+在本教程的代码中，使用了OLED显示屏和XHT11温湿度传感器，因此需要导入 “**oled_ssd1306\.py**” 和 “**DHT11\.py**” 库文件到micro:bit主板。
 
 Mu编辑器保存文件的默认目录是 “**mu_code**” ，它位于用户目录的根目录中。参考文献链接：[https://codewith.mu/en/tutorials/1.0/files](https://codewith.mu/en/tutorials/1.0/files)。
 
