@@ -37,8 +37,7 @@
     Projects/课程07
     Projects/课程08
     Projects/课程09
-    Projects/课程10
-    Projects/课程11
+
   
 4.4 故障排除
 =========
