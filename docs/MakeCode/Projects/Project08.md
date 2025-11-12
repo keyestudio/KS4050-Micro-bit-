@@ -51,8 +51,8 @@ The PM2.5 dust sensor comes with a GP2Y1014AU0F chip to effectively detect extre
 
 | PM2.5 dust sensor | wire color | micro:bit shield pin | micro:bit board pin |
 | :--: | :--: | :--: | :--: |
-| VCC | red | V2 | V |
 | GND | black | G  | G |
+| VCC | red | V2 | V |
 | LED | blue | 1  | P1 |
 | OUT | green | 2  | P2 |
 

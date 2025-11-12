@@ -61,7 +61,7 @@ When the board detects sound, the microphone LED indicator lights up.
 
 #### 4.3.4.6 Test Code
 
-⚠️ **<span style="color: rgb(255, 76, 65);">Tip: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to “4.4 Import Library on MU”.</span>**
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
 
 **Complete code:**
 

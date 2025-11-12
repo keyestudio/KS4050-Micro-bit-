@@ -40,8 +40,8 @@ In this project, we take the micro:bit board as a core processing unit to read t
 
 | PM2.5 dust sensor | wire color | micro:bit shield pin |micro:bit board pin |
 | :--: | :--: | :--: | :--: |
-| VCC | red | V2 | V |
 | GND | black | G | G |
+| VCC | red | V2 | V |
 | LED | blue | 9 | P9 |
 | OUT | green | 2 | P2 |
 

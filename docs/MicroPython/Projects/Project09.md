@@ -40,8 +40,8 @@ In this project, we take the micro:bit board as a core processing unit to read t
 
 | PM2.5 dust sensor | wire color | micro:bit shield pin | micro:bit board pin |
 | :---------------: | :--------: | :------------------: | :-----------------: |
-|        VCC        |    red     |          V2          |          V          |
 |        GND        |   black    |          G           |          G          |
+|        VCC        |    red     |          V2          |          V          |
 |        LED        |    blue    |          9           |         P9          |
 |        OUT        |   green    |          2           |         P2          |
 
@@ -73,7 +73,7 @@ In this project, we take the micro:bit board as a core processing unit to read t
 
 #### 4.3.9.5 Test Code
 
-⚠️ **<span style="color: rgb(255, 76, 65);">Tip: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to “4.4 Import Library on MU”. Note that apart from the “oled_ssd1306” library, no other ones can be imported; otherwise, code downloading will fail due to insufficient memory on the Microbit board.</span>**
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” . **<span style="color: rgb(255, 76, 65);">Note that apart from the “oled_ssd1306” library, no other ones can be imported; otherwise, code downloading will fail due to insufficient memory on the Microbit board.</span>**
 
 **Complete code:**
 

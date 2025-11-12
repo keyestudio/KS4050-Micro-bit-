@@ -63,7 +63,7 @@ The X, Y, and Z directions corresponding to the accelerometer are shown below:
 
 #### 4.3.5.6 Test Code
 
-⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to “4.4 Import Library on MU”.</span>**
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
 
 ⚠️ **Tip 2: The threshold 900 and 1200 in the if() condition can be modified according to the actual situation.**
 
