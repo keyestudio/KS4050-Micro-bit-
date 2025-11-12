@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: KS4050 Micro：bit 环境监测学习套件
+   :caption: KS4050 Micro:bit Environment Monitoring Learning Kit
 
    README.md
    docs/Product Introduction/1.Product Introduction
