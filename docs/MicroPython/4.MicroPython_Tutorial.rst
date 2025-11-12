@@ -12,42 +12,41 @@
     Resource_Download 
      
 
-4.2 MU编辑器开发环境配置
+4.2 MU Editor Development Environment
 =========
 
 .. toctree::
     :maxdepth: 1
 
-    MU开发环境
+    MU_development_environment
 
 
-4.3 项目教程
+4.3 Projects
 =========
 
 
 .. toctree::
     :maxdepth: 1
 
-    Projects/课程01
-    Projects/课程02
-    Projects/课程03
-    Projects/课程04
-    Projects/课程05
-    Projects/课程06
-    Projects/课程07
-    Projects/课程08
-    Projects/课程09
-    Projects/课程10
-    Projects/课程11
+    Projects/Project01
+    Projects/Project02
+    Projects/Project03
+    Projects/Project04
+    Projects/Project05
+    Projects/Project06
+    Projects/Project07
+    Projects/Project08
+    Projects/Project09
+
   
-4.4 故障排除
+4.4 Troubleshooting
 =========
 
 
 .. toctree::
     :maxdepth: 1
 
-    故障排除
+    Troubleshooting
     
 
 
