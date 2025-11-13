@@ -38,7 +38,7 @@ When the board detects sound, the microphone LED indicator lights up.
 | :--: | :--: | :--: |
 |    micro:bit V2 main board ×1    |        micro:bit shield ×1         |OLED display ×1 |
 |![Img](./media/usb.png) |![Img](./media/4pin.png)|![Img](./media/batterycase.png)|
-| micro USB cable ×1 |4 pin wire(black-red-blue-green) ×1 |battery holder ×1|
+| micro USB cable ×1 |4 pin wire ×1 |battery holder ×1|
 |![Img](./media/AAbattery.png)| | |
 |AA battery(**self-prepared**) ×6| | |
 

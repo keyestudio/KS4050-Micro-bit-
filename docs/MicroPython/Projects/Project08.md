@@ -37,13 +37,13 @@ The PM2.5 dust sensor comes with a GP2Y1014AU0F chip to effectively detect extre
 
 | ![Img](./media/microbitV2.png)|![Img](./media/ExpansionBoard.png)|![Img](./media/Atomization1.png)|
 | :--: | :--: | :--: |
-|     micro:bit V2 main board ×1      |         micro:bit shield ×1         |      atomization module ×1       |
+|   micro:bit V2 main board ×1    |        micro:bit shield ×1         |atomization module ×1|
 |![Img](./media/PM2.5-1.png)|![Img](./media/OLED.png)| ![Img](./media/AAbattery.png)|
-|        PM2.5 dust sensor ×1         |           OLED display ×1           | AA battery(**self-prepared**) ×6 |
-|![Img](./media/4pin-1.png) |![Img](./media/4pin.png)|![Img](./media/3pin.png)|
-| 4 pin wire(red-black-blue-green) ×1 | 4 pin wire(black-red-blue-green) ×1 |          3 pin wire ×1           |
-|![Img](./media/batterycase.png)|![Img](./media/usb.png) |  |
-|          battery holder ×1          |         micro USB cable ×1          |  |
+|PM2.5 dust sensor ×1|OLED display ×1 |AA battery(**self-prepared**) ×6|
+|![Img](./media/batterycase.png) |![Img](./media/4pin.png)|![Img](./media/3pin.png)|
+|battery holder ×1|4 pin wire ×2 |3 pin wire ×1 |
+|![Img](./media/usb.png) |  |    |
+| micro USB cable ×1 |  |  |
 
 #### 4.3.8.4 Wiring Diagram
 
@@ -78,6 +78,8 @@ The PM2.5 dust sensor comes with a GP2Y1014AU0F chip to effectively detect extre
 #### 4.3.8.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold 500 in the if() condition can be modified according to the actual situation.**
 

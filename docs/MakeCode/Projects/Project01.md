@@ -75,7 +75,7 @@ There are two control modes: by high and low level (controlling rotation and sto
 | :--: | :--: | :--: |
 | micro:bit V2 main board ×1 | micro:bit shield ×1 |OLED display ×1 |
 |![Img](./media/motor.png) |![Img](./media/usb.png) |![Img](./media/4pin.png)|
-|130 motor ×1| micro USB cable ×1 |4 pin wire(black-red-blue-green) ×2 |
+|130 motor ×1| micro USB cable ×1 |4 pin wire ×2 |
 |![Img](./media/fan.png) |![Img](./media/batterycase.png)| ![Img](./media/AAbattery.png)|
 |fan ×1|battery holder ×1|AA battery(**self-prepared**) ×6|
 

@@ -43,7 +43,7 @@ It detects the amount of water by the exposed parallel lines on the circuit boar
 | :--: | :--: | :--: |
 |   micro:bit V2 main board ×1   |        micro:bit shield ×1         |OLED display ×1 |
 |![Img](./media/steam1.png)|![Img](./media/usb.png) |![Img](./media/4pin.png)|
-| steam sensor ×1 |micro USB cable ×1|4 pin wire(black-red-blue-green) ×1 |
+| steam sensor ×1 |micro USB cable ×1|4 pin wire ×1 |
 |![Img](./media/3pin.png)|![Img](./media/batterycase.png)|![Img](./media/AAbattery.png)|
 |3 pin wire ×1 |battery holder ×1|AA battery(**self-prepared**) ×6|
 

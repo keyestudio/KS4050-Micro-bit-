@@ -52,7 +52,7 @@ The LED matrix of micro:bit board contains 25 LEDs in a grid. We can control a c
 | :--: | :--: | :--: |
 |   micro:bit V2 main board ×1   |        micro:bit shield ×1         |           OLED display ×1           |
 |![Img](./media/UV-sensor1.png)|![Img](./media/usb.png) |![Img](./media/4pin.png)|
-|     ultraviolet sensor ×1      |         micro USB cable×1          | 4 pin wire(black-red-blue-green) ×1 |
+|     ultraviolet sensor ×1      |         micro USB cable×1          | 4 pin wire ×1 |
 |![Img](./media/3pin.png)|![Img](./media/batterycase.png)|![Img](./media/AAbattery.png)|
 |         3 pin wire ×1          |         battery holder ×1          |  AA battery(**self-prepared**) ×6   |
 
@@ -82,6 +82,8 @@ The LED matrix of micro:bit board contains 25 LEDs in a grid. We can control a c
 #### 4.3.3.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold 5 in the if() condition can be modified according to the actual situation.**
 
@@ -126,7 +128,7 @@ while True:
     uv = read_uv_index() # Read the ultraviolet intensity level detected by the ultraviolet sensor
     add_text(0, 0, "UV Intensity:")  # Display the character string in the corresponding position of OLED
     add_text(14, 0, str(int(uv)))  # Display Ultraviolet intensity level in the corresponding position of OLED
-    if uv >= 3:    # when uv level >=3
+    if uv >= 5:    # when uv level >=5
        display.show(Image.NO)    # LED matrix displays the no pattern
        music.play("B5:4")        # speaker plays B5 tone
        sleep(100)

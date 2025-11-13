@@ -36,7 +36,7 @@ while True:
     uv = read_uv_index() # Read the ultraviolet intensity level detected by the ultraviolet sensor
     add_text(0, 0, "UV Intensity:")  # Display the character string in the corresponding position of OLED
     add_text(14, 0, str(int(uv)))  # Display Ultraviolet intensity level in the corresponding position of OLED
-    if uv >= 3:    # when uv level >=3
+    if uv >= 5:    # when uv level >=5
        display.show(Image.NO)    # LED matrix displays the no pattern
        music.play("B5:4")        # speaker plays B5 tone
        sleep(100)

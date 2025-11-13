@@ -58,11 +58,11 @@ while True:
             music.play("E5:4")       # speaker plays E5 tone
             sleep(1000)
             pin16.write_digital(0) # set P16 pin to low level
-            sleep(3000)
+            sleep(200)
             pin16.write_digital(1) # set P16 pin to high level
-            sleep(1000)
-            pin16.write_digital(0) # set P16 pin to low level
             sleep(3000)
+            pin16.write_digital(0) # set P16 pin to low level
+            sleep(200)
             pin16.write_digital(1) # set P16 pin to high level
             sleep(1000)
         else: # or

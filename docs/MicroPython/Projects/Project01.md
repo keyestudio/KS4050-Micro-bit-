@@ -75,7 +75,7 @@ There are two control modes: by high and low level (controlling rotation and sto
 | :--: | :--: | :--: |
 |   micro:bit V2 main board ×1   |        micro:bit shield ×1         |           OLED display ×1           |
 |![Img](./media/motor.png) |![Img](./media/usb.png) |![Img](./media/4pin.png)|
-|          130 motor ×1          |         micro USB cable ×1         | 4 pin wire(black-red-blue-green) ×2 |
+|          130 motor ×1          |         micro USB cable ×1         | 4 pin wire ×2 |
 |![Img](./media/fan.png) |![Img](./media/batterycase.png)| ![Img](./media/AAbattery.png)|
 |             fan ×1             |         battery holder ×1          |  AA battery(**self-prepared**) ×6   |
 
@@ -106,6 +106,8 @@ There are two control modes: by high and low level (controlling rotation and sto
 #### 4.3.1.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold 28 in the if() condition can be modified according to the actual situation.**
 

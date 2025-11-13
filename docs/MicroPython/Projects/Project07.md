@@ -151,7 +151,7 @@ Therefore, when using MCU, we only need to input a brief low-level to the module
 |![Img](./media/DHT11.png)|![Img](./media/OLED.png)|![Img](./media/motor.png) |
 | XHT11 temperature and<br />humidity sensor ×1 |           OLED display ×1           |           130 motor ×1           |
 |![Img](./media/usb.png) |![Img](./media/4pin.png)|![Img](./media/3pin.png)|
-|              micro USB cable ×1               | 4 pin wire(black-red-blue-green) ×2 |          3 pin wire ×2           |
+|              micro USB cable ×1               | 4 pin wire ×2 |          3 pin wire ×2           |
 |![Img](./media/fan.png) |![Img](./media/batterycase.png)| ![Img](./media/AAbattery.png)|
 |                    fan ×1                     |          battery holder ×1          | AA battery(**self-prepared**) ×6 |
 

@@ -43,7 +43,7 @@ It detects the amount of water by the exposed parallel lines on the circuit boar
 | :--: | :--: | :--: |
 |   micro:bit V2 main board ×1   |        micro:bit shield ×1         |           OLED display ×1           |
 |![Img](./media/steam1.png)|![Img](./media/usb.png) |![Img](./media/4pin.png)|
-|        steam sensor ×1         |         micro USB cable ×1         | 4 pin wire(black-red-blue-green) ×1 |
+|        steam sensor ×1         |         micro USB cable ×1         | 4 pin wire ×1 |
 |![Img](./media/3pin.png)|![Img](./media/batterycase.png)|![Img](./media/AAbattery.png)|
 |         3 pin wire ×1          |         battery holder ×1          |  AA battery(**self-prepared**) ×6   |
 
@@ -73,6 +73,8 @@ It detects the amount of water by the exposed parallel lines on the circuit boar
 #### 4.3.6.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold in the “if()...elif()...” condition can be modified according to the actual situation.**
 
@@ -192,7 +194,7 @@ DRY_VALUE = 0
 ```Python
 def map_value(value, in_min, in_max, out_min, out_max):
         """Linearly map the input values to the output range"""
-    if in_max - in_min == 0:  # Prevent division by zero errors
+    if in_max - in_min == 0:  
         return out_min
     return (value - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 ```

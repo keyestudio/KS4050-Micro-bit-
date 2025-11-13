@@ -36,7 +36,7 @@ Micro: Bit board boasts an built-in speaker, which makes sound to the programs e
 | :--: | :--: | :--: |
 |    micro:bit V2 main board ×1    |         micro:bit shield ×1         |         OLED display ×1         |
 |![Img](./media/usb.png) |![Img](./media/4pin.png)|![Img](./media/batterycase.png)|
-|        micro USB cable ×1        | 4 pin wire(black-red-blue-green) ×1 |        battery holder ×1        |
+|        micro USB cable ×1        | 4 pin wire ×1 |        battery holder ×1        |
 |![Img](./media/AAbattery.png)| | |
 |AA battery(**self-prepared**) ×6| | |
 
@@ -60,6 +60,8 @@ Micro: Bit board boasts an built-in speaker, which makes sound to the programs e
 #### 4.3.2.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold in the “if()...elif()...” condition can be modified according to the actual situation.**
 

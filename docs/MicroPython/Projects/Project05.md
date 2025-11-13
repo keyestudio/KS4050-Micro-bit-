@@ -40,7 +40,7 @@ The X, Y, and Z directions corresponding to the accelerometer are shown below:
 | :--: | :--: | :--: |
 |    micro:bit V2 main board ×1    |         micro:bit shield ×1         |         OLED display ×1         |
 |![Img](./media/usb.png) |![Img](./media/4pin.png)|![Img](./media/batterycase.png)|
-|        micro USB cable ×1        | 4 pin wire(black-red-blue-green) ×1 |        battery holder ×1        |
+|        micro USB cable ×1        | 4 pin wire ×1 |        battery holder ×1        |
 |![Img](./media/AAbattery.png)| | |
 |AA battery(**self-prepared**) ×6| | |
 
@@ -64,6 +64,8 @@ The X, Y, and Z directions corresponding to the accelerometer are shown below:
 #### 4.3.5.6 Test Code
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+
+![Img](./media/WPSA1.png)
 
 ⚠️ **Tip 2: The threshold 900 and 1200 in the if() condition can be modified according to the actual situation.**
 
