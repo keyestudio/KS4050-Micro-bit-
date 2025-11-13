@@ -91,36 +91,6 @@ The atomization module is composed of a driver and an atomization sheet, which a
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Note: Do not pull the wire on the sheet as much as possible, otherwise its solder welding point may fall off.</span>**
 
-**Install the cotton rod:**
-
-1. Soak the cotton rod completely in water (find a high capacity container to cover the entire rod with water, and soak it for more than 5 minutes to ensure that it fully absorbs the water).
-
-![Img](./media/ASZX11.png)
-
-2. Install the atomization sheet inside the plastic bracket. Note the direction of the sheet. Place its wire in the groove of the bracket.
-
-![Img](./media/AB051.png)
-
-![Img](./media/AB05.jpg)
-
-3. Close the other side of the plastic bracket.
-
-![Img](./media/AB06.jpg)
-
-4. Insert the cotton rod into the middle of the bracket. <span style="color: rgb(255, 76, 65);">It must be inserted all the way to the bottom till touch the atomization sheet.</span>
-
-![Img](./media/AB07.jpg)
-
-5. Connect the atomization sheet to the PH2.0 female terminal of the module, as shown below.
-
-![Img](./media/AB09.png)
-
-6. Immerse the cotton rod into water again for over 3 minutes. The water should cover the rod as much as possible, but no water should overflow. Press the black button on the module, and you can see the it starts spraying.
-
-⚠️ **<span style="color: rgb(255, 76, 65);">Attention: The atomization sheet should not work for a long time, and each operation should not exceed 10 seconds. It is best to stop for 1 to 2 minutes until the cotton rod is full of water before continuing to work. Otherwise, it may be burned out.</span>**
-
-![Img](./media/WASC11.png)
-
 **Instructions for use of atomization module:**
 
 There are two control modes for it: by buttons and by MCU programming.
@@ -130,6 +100,46 @@ There are two control modes for it: by buttons and by MCU programming.
 **MCU programming control:** Simulate the pressing of a button. It outputs high under normal conditions and low when pressed. Release the button and it outputs a high level again.
 
 Therefore, when using MCU, we only need to input a brief low-level to the module, like pressing the button. We can control the start or pause time of the atomization module by adjusting the time of the high level.
+
+**<span style="color: rgb(255, 76, 65);">Install the cotton rod:</span>**
+
+1\. Soak the cotton rod completely in water (find a high capacity container to cover the entire rod with water, and soak it for more than 5 minutes to ensure that it fully absorbs the water).
+
+![Img](./media/ASZX11.png)
+
+2\. Install the atomization sheet inside the plastic bracket. Note the direction of the sheet. Place its wire in the groove of the bracket.
+
+![Img](./media/AB051.png)
+
+![Img](./media/AB05.jpg)
+
+3\. Close the other side of the plastic bracket.
+
+![Img](./media/AB06.jpg)
+
+4\. Insert the cotton rod into the middle of the bracket. <span style="color: rgb(255, 76, 65);">It must be inserted all the way to the bottom till touch the atomization sheet.</span>
+
+![Img](./media/AB07.jpg)
+
+5\. Connect the atomization sheet to the PH2.0 female terminal of the module, as shown below.
+
+![Img](./media/AB09.png)
+
+6\. Connect the atomization module to the micro:bit shield and connect an external power supply.
+
+![Img](./media/WPS010.png)
+
+7\. Immerse the cotton rod into water again for over 3 minutes. The water should cover the rod as much as possible, but no water should overflow. 
+
+![Img](./media/WPS11.jpg)
+
+8\. Press the black button on the module, and you can see the it starts spraying. The water mist is sprayed for 3 seconds. Press the button again to turn it off.
+
+⚠️ **<span style="color: rgb(255, 76, 65);">Attention: The atomization sheet should not work for a long time, and each operation should not exceed 5 seconds. It is best to stop for 1 to 2 minutes until the cotton rod is full of water before continuing to work. Otherwise, it may be burned out.</span>**
+
+![Img](./media/sz12.png)
+
+![Img](./media/WPS12.jpg)
 
 ![Img](./media/2bottom.png)
 
