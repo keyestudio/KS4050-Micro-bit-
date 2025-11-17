@@ -75,11 +75,15 @@ At the same time, the rotation of the fan on the 130 motor module can be control
 
 #### 4.3.9.5 Test Code
 
-⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the library file “oled_ssd1306\.py” refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
 
 ![Img](./media/WPSA1.png)
 
-**<span style="color: rgb(255, 76, 65);">Note that apart from the “oled_ssd1306” library, no other ones can be imported; otherwise, code downloading will fail due to insufficient memory on the Microbit board.</span>**
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip 2: If the library file "XHT11\.py" has been imported to the micro:bit board before, it needs to be removed from the micro:bit board. Otherwise, it will cause insufficient memory on the Microbit motherboard, resulting in the unsuccessful download of the sample code to the Microbit board. </span>**
+
+Click the "Files" button, then right-click the library file "XHT11\.py" in the left box, the "Delete (cannot be undone)" option appears, click the "Delete (cannot be undone)" option, In this way, the library file "XHT11\.py" was deleted.
+
+![Img](./media/WPSA3.png)
 
 **Complete code:**
 
@@ -265,7 +269,7 @@ offTime = 9680
 ```Python
 def map_value(value, in_min, in_max, out_min, out_max):
     """Linearly map the input values to the output range"""
-    if in_max - in_min == 0:  # Prevent division by zero errors
+    if in_max - in_min == 0:  
         return out_min
     return (value - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 ```
@@ -359,12 +363,12 @@ if button_b.is_pressed(): # if button_b.is pressed
 ⑯ Display the values of ultraviolet, temperature, rain volume, light intensity and sound volume on the OLED.
 
 ```Python
-add_text(11, 0, " | UV:")
-add_text(17, 0, str(int(uv))) # Display the UV value on the OLED
-add_text(0, 2, "Temper:")
-add_text(7, 2, str(int(Temperature)) + "C") # Display the Temperature value on the OLED
-add_text(10, 2, " | Rain:")
-add_text(18, 2, str(int(rain_percent)) + "%") # Display the percentage of rainfall on the OLED
+add_text(0, 0, "Temper:")
+add_text(7, 0, str(int(Temperature)) + "C") # Display the Temperature value on the OLED
+add_text(0, 2, "UV:")
+add_text(3, 2, str(int(uv))) # Display the UV value on the OLED
+add_text(5, 2, " | Rain:")
+add_text(13, 2, str(int(rain_percent)) + "%") # Display the percentage of rainfall on the OLED
 add_text(0, 4, "Light:")
 add_text(6, 4, str(Lightintensity)) # Display the light intensity on the OLED
 add_text(9, 4, " | Sound:")
@@ -398,7 +402,13 @@ After uploading test code, press the reset button on the back of micro:bit.
 
 ![Img](./media/A455.png)
 
-Read the values of micro:bit board built-in sensors (including light sensor, temperature sensor, microphone) as well as external sensors (like PM2.5 dust sensor, steam sensor and solar ultraviolet sensor), and then display these values in real time on the OLED through I2C interface. When button A on the micro:bit board is pressed, the fan on the motor module rotates. When button B on the board is pressed, the atomization module sprays water mist.
+Read the values of its built-in sensors (including light sensor, temperature sensor, microphone) as well as external sensors (like PM2.5 dust sensor, steam sensor and solar ultraviolet sensor), and then it can display the light intensity, temperature, noise intensity, rainfall intensity, ultraviolet intensity of sunlight and PM2.5 dust concentration in real time and intuitively through the OLED display screen with I2C interface.
+
+Blow air (or make a very loud noise) into the microphone on the Microbit board (⚠️ **<span style="color: rgb(255, 76, 65);">special reminder: Blowing air has a more obvious effect</span>**), and the OLED display will show  the intensity of the air blowing (or noise).
+
+When button A on the micro: bit board is pressed, the fan on the motor module rotates. When button B on the board is pressed, the atomization module sprays water mist.
+
+⚠️ <span style="color: rgb(255, 76, 65);">Special reminder:</span> Sometimes the external power supply voltage may be insufficient. In such cases, it might be necessary to press the button twice on the micro: bit board before the fan starts to rotate or the misting module begins to spray water mist.
 
 ![Img](./media/dongtu-9.gif)
 

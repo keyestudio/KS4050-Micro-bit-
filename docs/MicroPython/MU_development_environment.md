@@ -102,11 +102,9 @@ For more tutorials about MU, please visit: [https://codewith.mu/en/tutorials/](h
 
 ## 4.4 Import Library on MU
 
-⚠️ **Note:** Before importing a library file, you need to upload a .py code to the micro:bit board (empty code is also acceptable). Here, we import an empty code.
+⚠️ **Note:** Before importing a library file, you need to upload a .py code (empty code is also acceptable) to the micro:bit board . Here, we import an empty code.
 
-Connect the micro:bit board to the computer via a micro USB cable, open the Mu editor, click “**New**” to create a .py code(empty), and then click the “**Flash**” to upload the empty code to the board.
-
- 
+1\. Connect the micro:bit board to the computer via a micro USB cable, open the Mu editor, click “**New**” to create a .py code(empty), and then click the “**Flash**” to upload the empty code to the board.
 
 ![Img](./media/A252.png)
 
@@ -120,41 +118,45 @@ The default directory for saving files in MU is “**mu_code**”, which is loca
 
 Reference: [https://codewith.mu/en/tutorials/1.0/files](https://codewith.mu/en/tutorials/1.0/files).
 
-**Import libraries:**
+**<span style="color: rgb(255, 76, 65);">2\. Import libraries:</span>**
 
-1\. Search folder “**mu_code**”.
+2.1\. Double-click to open the C drive of your computer. Search for "**mu_code**” on the C drive of your computer and find the "**mu_code**” folder.
 
 ![Img](./media/A543.png)
 
 ![Img](./media/A550.png)
 
-2\. Open “**mu_code**”.
+2.2\. Open “**mu_code**”.
 
 ![Img](./media/A628.png)
 
-3\. Copy and paste the files “**oled_ssd1306\.py**” and “**DHT11\.py**” in “**Libraries**” to “**mu_code**”.
+2.3\. Copy and paste the library files “**oled_ssd1306\.py**” and “**DHT11\.py**” from the “**Libraries**” folder to the “**mu_code**” directory at the following path.
 
 ![Img](./media/A4716.png)
 
-4\. In “**mu_code**”, you then can see “**oled_ssd1306\.py**” and “**DHT11\.py**”:
+2.4\. In “**mu_code**”, you then can see “**oled_ssd1306\.py**” and “**DHT11\.py**”:
 
 ![Img](./media/A735.png)
 
-5\. Open MU and click “**Files**”. Drag “**DHT11\.py**” to the micro:bit.
+2.5\. Open MU and click “**Files**”. Drag “**DHT11\.py**” to the micro:bit.
 
 ![Img](./media/A816.png)
 
 ![Img](./media/A820.png)
 
-6\. And you can see “**DHT11\.py**” in the left box:
+2.6\. And you can see “**DHT11\.py**” in the left box:
 
 ![Img](./media/A841.png)
 
-7\. Similarly, import “**oled_ssd1306\.py**”.
+2.7\. Similarly, import “**oled_ssd1306\.py**”.
 
 ![Img](./media/A916.png)
 
 ![Img](./media/A4920.png)
+
+2.8\. After adding the library files “**oled_ssd1306\.py**” and “**DHT11\.py**” , click the “**Files**” button again.
+
+![Img](./media/AB12.png)
 
 ⚠️ **<span style="color: rgb(255, 76, 65);">Note:</span> After importing libraries, click “**Flash**” to download the .py code file to micro:bit board. If the on-board 5*5 LED matrix shows the error, you need to re-load these libraries.**
 

@@ -115,7 +115,13 @@ After wiring up and power on by micro USB cable, connect to external power(6 AA 
 
 For Windows 10 App, just click download. For browser, send the “.hex” file to the micro:bit board.
 
-After uploading test code to micro:bit board, read the values of its built-in sensors (including light sensor, temperature sensor, microphone) as well as external sensors (like PM2.5 dust sensor, steam sensor and solar ultraviolet sensor), and then these values will be displayed in real time on the OLED through I2C interface. When button A on the micro: bit board is pressed, the fan on the motor module rotates. When button B on the board is pressed, the atomization module sprays water mist.
+After uploading test code to micro:bit board, read the values of its built-in sensors (including light sensor, temperature sensor, microphone) as well as external sensors (like PM2.5 dust sensor, steam sensor and solar ultraviolet sensor), and then it can display the light intensity, temperature, noise intensity, rainfall intensity, ultraviolet intensity of sunlight and PM2.5 dust concentration in real time and intuitively through the OLED display screen with I2C interface.
+
+Blow air (or make a very loud noise) into the microphone on the Microbit board (⚠️ **<span style="color: rgb(255, 76, 65);">special reminder: Blowing air has a more obvious effect</span>**), and the OLED display will show  the intensity of the air blowing (or noise)
+
+When button A on the micro: bit board is pressed, the fan on the motor module rotates. When button B on the board is pressed, the atomization module sprays water mist.
+
+⚠️ <span style="color: rgb(255, 76, 65);">Special reminder:</span> Sometimes the external power supply voltage may be insufficient. In such cases, it might be necessary to press the button twice on the micro: bit board before the fan starts to rotate or the misting module begins to spray water mist.
 
 ![Img](./media/dongtu-9.gif)
 

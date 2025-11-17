@@ -61,19 +61,13 @@ When the board detects sound, the microphone LED indicator lights up.
 
 #### 4.3.4.6 Test Code
 
-⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the “oled_ssd1306” library refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
+⚠️ **<span style="color: rgb(255, 76, 65);">Tip 1: Before downloading the code to the Microbit board, please import the library file “oled_ssd1306\.py” refering to </span>** “[Import Library on MU](https://docs.keyestudio.com/projects/KS4050/en/latest/docs/MicroPython/MU_development_environment.html#import-library-on-mu)” .
 
 ![Img](./media/WPSA1.png)
 
 **Complete code:**
 
 ```Python
-'''
-Theme: Intelligent noise tester
-Function: OLED displays the noise intensity, and the microbit microphone controls the number of 5*5 dot matrix on
-Compiling IDE: MU 1.2.0
-Author: https://docs.keyestudio.com
-'''
 # import related libraries
 from microbit import *
 from oled_ssd1306 import *
@@ -90,51 +84,27 @@ def map(value, fromMin, fromMax, toMin, toMax):
     return toMin + (valueScaled * toRange)
 
 # set of images for simple bar chart
-graph5 = Image("99999:"
-               "99999:"
-               "99999:"
-               "99999:"
-               "99999")
-graph4 = Image("00000:"
-               "99999:"
-               "99999:"
-               "99999:"
-               "99999")
-graph3 = Image("00000:"
-               "00000:"
-               "99999:"
-               "99999:"
-               "99999")
-graph2 = Image("00000:"
-               "00000:"
-               "00000:"
-               "99999:"
-               "99999")
-graph1 = Image("00000:"
-               "00000:"
-               "00000:"
-               "00000:"
-               "99999")
-graph0 = Image("00000:"
-               "00000:"
-               "00000:"
-               "00000:"
-               "00000")
+graph5 = Image("99999:""99999:""99999:""99999:""99999")
+graph4 = Image("00000:""99999:""99999:""99999:""99999")
+graph3 = Image("00000:""00000:""99999:""99999:""99999")
+graph2 = Image("00000:""00000:""00000:""99999:""99999")
+graph1 = Image("00000:""00000:""00000:""00000:""99999")
+graph0 = Image("00000:""00000:""00000:""00000:""00000")
+
 allGraphs = [graph0, graph1, graph2, graph3, graph4, graph5]
 
 # ignore first sound level reading
-soundLevel = microphone.sound_level()
-sleep(200)
+# soundLevel = microphone.sound_level()
+# sleep(100)
 
 while True:
-    clear_oled()      # clear OLED
-    soundLevel = microphone.sound_level() # Read the sound intensity detected by the microphone on the microbit board
-    add_text(0, 0, "Acoustic Sound Level:")  # Display the character string in the corresponding position of OLED
-    add_text(0, 2, str(soundLevel))  # Display soundLevel in the corresponding position of OLED
     # map sound levels from range 0-255 to range 0-5 for choosing graph image
-    soundLevel1 = int(map(soundLevel, 0, 255, 0, 5))
-    display.show(allGraphs[soundLevel1])
-    sleep(1000)
+    soundLevel = int(map(microphone.sound_level(), 0, 255, 0, 5))
+    display.show(allGraphs[soundLevel])
+    clear_oled() # clear OLED
+    add_text(0, 0, "Acoustic Sound Level:")  # Display the character string in the corresponding position of OLED
+    add_text(0, 2, str(microphone.sound_level()))  # Display soundLevel in the corresponding position of OLED
+    sleep(200)
 ```
 
 ![Img](./media/line1.png)
@@ -168,58 +138,30 @@ def map(value, fromMin, fromMax, toMin, toMax):
 ④ Define a set of simple bar graph images.
 
 ```Python
-graph5 = Image("99999:"
-               "99999:"
-               "99999:"
-               "99999:"
-               "99999")
-graph4 = Image("00000:"
-               "99999:"
-               "99999:"
-               "99999:"
-               "99999")
-graph3 = Image("00000:"
-               "00000:"
-               "99999:"
-               "99999:"
-               "99999")
-graph2 = Image("00000:"
-               "00000:"
-               "00000:"
-               "99999:"
-               "99999")
-graph1 = Image("00000:"
-               "00000:"
-               "00000:"
-               "00000:"
-               "99999")
-graph0 = Image("00000:"
-               "00000:"
-               "00000:"
-               "00000:"
-               "00000")
+graph5 = Image("99999:""99999:""99999:""99999:""99999")
+graph4 = Image("00000:""99999:""99999:""99999:""99999")
+graph3 = Image("00000:""00000:""99999:""99999:""99999")
+graph2 = Image("00000:""00000:""00000:""99999:""99999")
+graph1 = Image("00000:""00000:""00000:""00000:""99999")
+graph0 = Image("00000:""00000:""00000:""00000:""00000")
+
 allGraphs = [graph0, graph1, graph2, graph3, graph4, graph5]
 ```
-⑤Ignore the first sound value reading.
+
+⑤ Map the sound value range of 0-255 to 0-5 of the selected graphic image.
 
 ```Python
-soundLevel = microphone.sound_level()
-sleep(200)
+soundLevel = int(map(microphone.sound_level(), 0, 255, 0, 5))
+display.show(allGraphs[soundLevel])
 ```
 
 ⑥ Read the detected value and display it on the OLED.
 
 ```Python
-soundLevel = microphone.sound_level() # Read the sound intensity detected by the microphone on the microbit board
+clear_oled() # clear OLED
 add_text(0, 0, "Acoustic Sound Level:")  # Display the character string in the corresponding position of OLED
-add_text(0, 2, str(soundLevel))  # Display soundLevel in the corresponding position of OLED
-```
-
-⑦ Map the sound value range of 0-255 to 0-5 of the selected graphic image.
-
-```Python
-soundLevel1 = int(map(soundLevel, 0, 255, 0, 5))
-display.show(allGraphs[soundLevel1])
+add_text(0, 2, str(microphone.sound_level()))  # Display soundLevel in the corresponding position of OLED
+sleep(200)
 ```
 
 #### 4.3.4.7 Test Result
@@ -234,7 +176,7 @@ After uploading test code, press the reset button on the back of micro:bit.
 
 ![Img](./media/A455.png)
 
-The OLED display will show the information related to the current sound in real time. Meanwhile, Make noise towards the microphone on the micro:bit board, the number of lit LED on the 5×5 LED matrix will increase or decrease according to the sound volume, alerting the noise intensity.
+Blow air (or make a very loud noise) into the microphone on the Microbit board (⚠️ **<span style="color: rgb(255, 76, 65);">special reminder: Blowing air has a more obvious effect</span>**), and the OLED display will show real-time information related to air blowing (or noise) intensity, allowing users to intuitively understand the intensity of the air blowing (or noise). Meanwhile, the 5×5LED dot matrix screen on the Microbit board will gradually increase or decrease the number of rows of LED lights on the screen according to the intensity of the air blowing (or noise), achieving the effect of reminding the intensity of the air blowing (or noise)
 
 ![Img](./media/dongtu-4.gif)
 
