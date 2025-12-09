@@ -78,7 +78,7 @@ Or click “**Extensions**” above the **Advanced**.
 
 ⚠️ **Under normal circumstances, once extensions are added, there is no need to delete them. The following part is only for learning how to delete unnecessary extensions.**
 
-![Img](./media/Animation-4.gif)
+![Img](./media/Animation-5.gif)
 
 Detailed step:
 
